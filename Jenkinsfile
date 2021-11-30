@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Checkout SCM') {
 			steps {
-				git 'https://github.com/milosaur/simple-node-js-react-npm-app'
+				git 'https://github.com/xenbon/simple-node-js-react-npm-app'
 			}
 		}
 
